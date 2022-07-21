@@ -81,36 +81,27 @@ body{
     border-radius: 10px;
    
 }
-.menu{
+.transfer{
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.fa-clock{
+    color:black;
    
-
+}
+.dada{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
-    row-gap: 22px;
-  
-   margin: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
 }
-.same-button{
-    width: 252px;
-    height: 64px;
-    border-radius: 10px;
-    background-color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 400;
-}
-.same-button:hover{border: slategrey 10px solid;}
-.blog-button:hover{border: slategrey 10px solid;}
-.blog-button{
-    width: 252px;
-    height: 64px;
-    background: #DD0000;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 400;
+.hamza-father{
+    width: 312px;
+height: 242px;
 }
 
 
-}
 
 
 
