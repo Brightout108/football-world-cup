@@ -64,6 +64,9 @@ body{
     border-radius: 5px;
     padding: 5px 10px;
 }
+.watch-live:hover{
+    border: 2px solid white ;
+}
 /* ---------------------------------end header section----------------------------------------- */
 
 .main{
@@ -93,6 +96,8 @@ body{
     font-size: 20px;
     font-weight: 400;
 }
+.same-button:hover{border: slategrey 10px solid;}
+.blog-button:hover{border: slategrey 10px solid;}
 .blog-button{
     width: 252px;
     height: 64px;
