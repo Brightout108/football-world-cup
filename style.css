@@ -3,6 +3,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    
 }
 /* -------------------------------------------------baner--------------------------------------------- */
 .baner{
@@ -17,6 +18,7 @@ body{
    margin-bottom: 0;
    margin-left: 50px;
    margin-right: 50px;
+  
 }
 
 .h-info{
@@ -63,3 +65,39 @@ body{
     padding: 5px 10px;
 }
 /* ---------------------------------end header section----------------------------------------- */
+
+.main{
+    display: flex;
+    gap:30px;
+    margin-top: 70px;
+}
+.nav{
+    width: 312px;
+    height: 312px;
+    background: #161616;
+    border-radius: 10px;
+   
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    row-gap: 22px;
+  
+   margin: 30px;
+}
+.same-button{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+}
+.blog-button{
+    width: 252px;
+    height: 64px;
+    background: #DD0000;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
